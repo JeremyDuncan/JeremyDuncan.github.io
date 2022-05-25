@@ -318,107 +318,10 @@ footer>span {
   box-shadow: 10px 10px 30px 1px #547ab8;
   margin-bottom: 15px;
   margin-top: 10px;
+  width: 70%;
 }
 
 /* ====================== RESPONSIVE SECTION ================================ */
-
-/* ================ 550 WIDTH ====== */
-@media (max-width: 550px) {
-  #features .desc {
-    width: 100%;
-
-  }
-
-  #features {
-    margin-top: 2px;
-  }
-}
-
-
-/* ================ 600 WIDTH ====== */
-@media (max-width: 600px) {
-  header {
-    flex-wrap: wrap;
-    background-color: rgb(215, 255, 255);
-    width: 100%;
-  }
-}
-
-
-/* ================ 650 WIDTH ====== */
-@media (max-width: 650px) {
-  nav>ul {
-    flex-direction: column;
-  }
-
-  .container {
-    max-width: 1000px;
-    width: 100%;
-    margin: 0;
-    border: 10px solid rgb(74, 154, 43);
-    padding: 0px;
-  }
-
-  .logo {
-    margin-top: 15px;
-    width: 100%;
-    position: relative;
-  }
-
-  header {
-    flex-wrap: wrap;
-    background-color: rgb(215, 255, 255);
-    width: 100%;
-    margin-top: -1em;
-    border-bottom: #444;
-  }
-
-  .grid {
-    height: 100px;
-    display: flex;
-    border: 5px solid rgb(118, 6, 6);
-    font-size: .6em;
-    text-align: center;
-    align-items: center;
-  }
-
-  #hero {
-    margin-top: 120px;
-  }
-
-  .title {
-    display: flex;
-    margin-top: 330px;
-    text-align: center;
-    justify-content: center;
-    border: 10px solid rgb(74, 154, 43);
-    width: 15%;
-  }
-
-  nav {
-    margin-top: 10px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 0 0px;
-    color: rgb(16, 102, 160);
-  }
-
-  nav li {
-    padding-bottom: 5px;
-    color: rgb(16, 102, 160);
-
-  }
-
-  .logo>img {
-    margin: 0 auto;
-  }
-
-}
-
-
 /* ================ 800 WIDTH ====== */
 @media (max-width: 800px) {
   #pricing {
@@ -438,4 +341,105 @@ footer>span {
     margin: 0 auto;
     margin-bottom: 10px;
   }
+}
+
+
+/* ================ 650 WIDTH ====== */
+@media (max-width: 650px) {
+  nav { 
+    margin-top: 10px;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  nav li {
+    padding-bottom: 5px;
+    color: rgb(16, 102, 160);
+  }
+
+
+  .container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0;
+    padding: 0px;
+  }
+
+  .logo {
+    margin-top: 15px;
+    width: 100%;
+    position: relative;
+  }
+
+  header {
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: rgb(215, 255, 255);
+    width: 100%;
+    margin-top: -1em;
+    border-bottom: #444;
+  }
+
+  #header-img {
+    width: 130px;
+  }
+  .grid {
+    height: 100px;
+    display: flex;
+    font-size: .6em;
+    text-align: center;
+    align-items: center;
+  }
+
+  #hero {
+    margin-top: 120px;
+  }
+
+  .title {
+    display: flex;
+    margin-top: 140px;
+    text-align: center;
+    justify-content: center;
+    width: 15%;
+  }
+
+  .logo>img {
+    margin: 0 auto;
+  }
+
+}
+
+
+/* ================ 600 WIDTH ====== */
+@media (max-width: 600px) {
+  header {
+    flex-wrap: wrap;
+    background-color: rgb(215, 255, 255);
+    width: 100%;
+  }
+
+  #hero {
+    margin-top: 20px;
+  } 
+}
+
+
+
+/* ================ 550 WIDTH ====== */
+@media (max-width: 550px) {
+  #features .desc {
+    width: 100%;
+  }
+
+  #features {
+    margin-top: 2px;
+  }
+
+  #header-img {
+    width: 100px;
+  }
+  
+ 
 }
