@@ -19,8 +19,9 @@ body {
       rgba(215, 255, 255, .95)),
     url(https://i.pinimg.com/originals/a1/5c/ef/a15cefeb6b1de0ff127b6c9a861fbd13.jpg);
   background-size: cover;
-  background-size: 200px;
+  background-size: 100%;
   background-position: center;
+
 }
 
 #page-wrapper {
