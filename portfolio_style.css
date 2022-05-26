@@ -408,9 +408,85 @@ h1 {
   font-weight: 200;
 
 }
+/* @media (min-width: 100.1px) and (max-width: 400px) {
+  .profile-image {
+    width: 430px;
+    box-shadow: 2px 2px 33px 11px rgb(54, 83, 171);
+    border: 5px solid rgb(221, 223, 231);
+    border-radius: 30px;
+  }
+  .welcome-section>p{
+    font-size: .53em;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+ } */
 
 
- /* REFLEXIVE SECTION  ============= */
+
+
+  /* REFLEXIVE SECTION  ============= */
+@media(min-width: 100.1px) and (max-width: 1600px) {
+  .profile-image {
+    width: 260px;
+    box-shadow: 2px 2px 33px 11px rgb(54, 83, 171);
+    border: 1px solid rgb(16, 23, 45);
+    border-radius: 30px;
+  }
+  .welcome-section>p{
+    font-size: .73em;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+ }
+ @media(min-width: 100.1px) and (max-width: 1282px) {
+  .profile-image {
+    width: 260px;
+    box-shadow: 2px 2px 33px 11px rgb(54, 83, 171);
+    border: 1px solid rgb(16, 23, 45);
+    border-radius: 30px;
+  }
+  .welcome-section>p{
+    font-size: .63em;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+ }
+
+
+ @media(min-width: 100.1px) and (max-width: 863px) {
+  .profile-image {
+    width: 240px;
+    box-shadow: 2px 2px 33px 11px rgb(54, 83, 171);
+    border: 1px solid rgb(16, 23, 45);
+    border-radius: 30px;
+  }
+  .welcome-section>p{
+    font-size: .55em;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+ }
+
+ @media(min-width: 100.1px) and (max-width: 603px) {
+  .profile-image {
+    width: 240px;
+    box-shadow: 2px 2px 33px 11px rgb(54, 83, 171);
+    border: 1px solid rgb(16, 23, 45);
+    border-radius: 30px;
+  }
+  .welcome-section>p{
+    font-size: .5em;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+ }
+
 
  /* === IPHONE ===  */
  @media only screen 
@@ -425,20 +501,24 @@ h1 {
   }
   .welcome-section>p{
     font-size: 1.2em;
+  }@media (min-width: 400.1px) and (max-width: 600px) {
+  body {
+    background: red;
   }
+}
   h1 {
     font-size: 6rem;
   }
 }
 
- @media screen 
+ /* @media screen 
  and (min-device-width: 1200px) 
  and (max-device-width: 1600px) 
  and (-webkit-min-device-pixel-ratio: 1) { 
-}
+} */
 
 /* ----------- Retina Screens ----------- */
-@media screen 
+/* @media screen 
  and (min-device-width: 1200px) 
  and (max-device-width: 1600px) 
  and (-webkit-min-device-pixel-ratio: 2)
@@ -456,4 +536,6 @@ h1 {
   h1 {
     font-size: 3rem;
   }
- }
+ } */
+
+
