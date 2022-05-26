@@ -26,102 +26,10 @@
 html {
   box-sizing: border-box;
 
-  /* Set font size for easy rem calculations
-   * default document font size = 16px, 1rem = 16px, 100% = 16px
-   * (100% / 16px) * 10 = 62.5%, 1rem = 10px, 62.5% = 10px
-  */
   font-size: 62.5%;
   scroll-behavior: smooth;
 }
 
-/* A few media query to set some font sizes at different screen sizes.
- * This helps automate a bit of responsiveness.
- * The trick is to use the rem unit for size values, margin and padding.
- * Because rem is relative to the document font size
- * when we scale up or down the font size on the document
- * it will affect all properties using rem units for the values.
-*/
-
-/* I am using the em unit for breakpoints
- * The calculation is the following
- * screen size divided by browser base font size
- * As an example: a breakpoint at 980px
- * 980px / 16px = 61.25em
-*/
-
-
-.profile-image {
-  width: 460px;
-  border-radius: 45px;
-  box-shadow: 2px 2px 33px 11px rgb(54, 83, 171);
-  border: 1px solid rgb(30, 50, 111);
-}
-
-/* 1456px / 16px = 91em */
-@media (max-width: 91em) {
-  html {
-    font-size: 48%;
-  }
-
-  .profile-image {
-    width: 260px;
-    border-radius: 45px;
-    box-shadow: 2px 2px 33px 11px rgb(54, 83, 171);
-    border: 1px solid rgb(30, 50, 111);
-    border: 9px solid rgb(137, 96, 13);
-
-  }
-
-
-}
-
-/* 980px / 16px = 61.25em */
-@media (max-width: 61.25em) {
-  html {
-    font-size: 40%;
-  }
-  .profile-image {
-    width: 260px;
-    border-radius: 45px;
-    box-shadow: 2px 2px 33px 11px rgb(54, 83, 171);
-    border: 1px solid rgb(30, 50, 111);
-    border: 9px solid rgb(7, 220, 10);
-
-  }
-
-}
-@media (max-width: 38.68em) {
-  html {
-    font-size: 37%;
-  }
-  .profile-image {
-    width: 260px;
-    border-radius: 45px;
-    box-shadow: 2px 2px 33px 11px rgb(54, 83, 171);
-    border: 1px solid rgb(30, 50, 111);
-    border: 9px solid rgb(7, 220, 10);
-
-  }
-
-}
-
-/* 460px / 16px = 28.75em */
-@media (max-width: 28.75em) {
-  html {
-    font-size: 31%;
-  }
-
-  .profile-image {
-    width: 260px;
-    border-radius: 45px;
-    box-shadow: 2px 2px 33px 11px rgb(54, 83, 171);
-    border: 1px solid rgb(30, 50, 111);
-    border: 9px solid rgb(137, 13, 44);
-
-  }
-}
-
-/* Base styles */
 
 body {
   font-family: 'Just Another Hand', cursive;
@@ -142,7 +50,7 @@ h2 {
 }
 
 h1 {
-  font-size: 8rem;
+  font-size: 4rem;
 }
 
 h2 {
@@ -158,11 +66,21 @@ a {
   color: var(--main-white);
 }
 
+.welcome-section>p{
+  font-size: .2em;
+}
 img {
   display: block;
   width: 100%;
 }
+.profile-image {
+  width: 200px;
+  box-shadow: 2px 2px 33px 11px rgb(54, 83, 171);
+  border: 1px solid rgb(30, 50, 111);
+  border-radius: 30px;
 
+
+}
 /* nav */
 
 .nav {
@@ -182,15 +100,6 @@ img {
   margin-right: 2rem;
 }
 
-@media (max-width: 28.75em) {
-  .nav {
-    justify-content: center;
-  }
-
-  .nav-list {
-    margin: 0 1rem;
-  }
-}
 
 .nav-list a {
   display: block;
@@ -296,11 +205,6 @@ img {
   border-bottom: 0.2rem solid var(--main-white);
 }
 
-@media (max-width: 28.75em) {
-  .projects-section-header {
-    font-size: 4rem;
-  }
-}
 
 /* "Automagic" image grid using no media queries */
 .projects-grid {
@@ -313,15 +217,7 @@ img {
   margin-bottom: 6rem;
 }
 
-@media (max-width: 30.625em) {
-  .projects-section {
-    padding: 6rem 1rem;
-  }
 
-  .projects-grid {
-    grid-template-columns: 1fr;
-  }
-}
 
 .project {
   background: var(--main-gray);
@@ -410,20 +306,10 @@ img {
   background: var(--main-purp);
 }
 
-
-
-
-
 .contact-section-header>h2 {
   font-size: 6rem;
 }
 
-@media (max-width: 28.75em) {
-  .contact-section-header>h2 {
-    font-size: 4rem;
-  }
-
-}
 
 .contact-section-header>p {
   font-style: italic;
@@ -465,14 +351,6 @@ footer>p {
 
 footer i {
   vertical-align: middle;
-}
-
-@media (max-width: 28.75em) {
-  footer {
-    flex-direction: column;
-    text-align: center;
-  }
-
 }
 
 .slide-right {
@@ -530,3 +408,53 @@ h1 {
   font-weight: 200;
 
 }
+
+
+ /* REFLEXIVE SECTION  ============= */
+
+ /* === IPHONE ===  */
+ @media only screen 
+ and (min-device-width: 320px) 
+ and (max-device-width: 500px)
+ and (-webkit-min-device-pixel-ratio: 2) {
+  .profile-image {
+    width: 560px;
+    box-shadow: 2px 2px 33px 11px rgb(54, 83, 171);
+    border: 1px solid rgb(30, 50, 111);
+    border: 9px solid rgb(137, 13, 44);
+    border-radius: 30px;
+  }
+  .welcome-section>p{
+    font-size: 1.2em;
+  }
+  h1 {
+    font-size: 6rem;
+  }
+}
+
+ @media screen 
+ and (min-device-width: 1200px) 
+ and (max-device-width: 1600px) 
+ and (-webkit-min-device-pixel-ratio: 1) { 
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen 
+ and (min-device-width: 1200px) 
+ and (max-device-width: 1600px) 
+ and (-webkit-min-device-pixel-ratio: 2)
+ and (min-resolution: 192dpi) { 
+
+  .profile-image {
+    width: 230px;
+    box-shadow: 2px 2px 33px 11px rgb(54, 83, 171);
+    border: 1px solid rgb(30, 50, 111);
+    border-radius: 30px;
+  }
+  .welcome-section>p{
+    font-size: .53em;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+ }
