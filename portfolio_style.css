@@ -427,6 +427,23 @@ h1 {
 
 
   /* REFLEXIVE SECTION  ============= */
+
+  /* === ULTRA WIDE Monitors === */
+  @media(min-width: 100.1px) and (max-width: 3440px) {
+    .profile-image {
+      width: 460px;
+      box-shadow: 2px 2px 33px 11px rgb(54, 83, 171);
+      border: 1px solid rgb(16, 23, 45);
+      border-radius: 30px;
+    }
+    .welcome-section>p{
+      font-size: 1em;
+    }
+    h1 {
+      font-size: 6rem;
+    }
+   }
+
 @media(min-width: 100.1px) and (max-width: 1600px) {
   .profile-image {
     width: 260px;
