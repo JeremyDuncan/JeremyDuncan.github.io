@@ -49,24 +49,75 @@ html {
  * 980px / 16px = 61.25em
 */
 
-/* 1200px / 16px = 75em */
-@media (max-width: 75em) {
+
+.profile-image {
+  width: 460px;
+  border-radius: 45px;
+  box-shadow: 2px 2px 33px 11px rgb(54, 83, 171);
+  border: 1px solid rgb(30, 50, 111);
+}
+
+/* 1456px / 16px = 91em */
+@media (max-width: 91em) {
   html {
-    font-size: 60%;
+    font-size: 48%;
   }
+
+  .profile-image {
+    width: 260px;
+    border-radius: 45px;
+    box-shadow: 2px 2px 33px 11px rgb(54, 83, 171);
+    border: 1px solid rgb(30, 50, 111);
+    border: 9px solid rgb(137, 96, 13);
+
+  }
+
+
 }
 
 /* 980px / 16px = 61.25em */
 @media (max-width: 61.25em) {
   html {
-    font-size: 58%;
+    font-size: 40%;
   }
+  .profile-image {
+    width: 260px;
+    border-radius: 45px;
+    box-shadow: 2px 2px 33px 11px rgb(54, 83, 171);
+    border: 1px solid rgb(30, 50, 111);
+    border: 9px solid rgb(7, 220, 10);
+
+  }
+
+}
+@media (max-width: 38.68em) {
+  html {
+    font-size: 37%;
+  }
+  .profile-image {
+    width: 260px;
+    border-radius: 45px;
+    box-shadow: 2px 2px 33px 11px rgb(54, 83, 171);
+    border: 1px solid rgb(30, 50, 111);
+    border: 9px solid rgb(7, 220, 10);
+
+  }
+
 }
 
 /* 460px / 16px = 28.75em */
 @media (max-width: 28.75em) {
   html {
-    font-size: 55%;
+    font-size: 31%;
+  }
+
+  .profile-image {
+    width: 260px;
+    border-radius: 45px;
+    box-shadow: 2px 2px 33px 11px rgb(54, 83, 171);
+    border: 1px solid rgb(30, 50, 111);
+    border: 9px solid rgb(137, 13, 44);
+
   }
 }
 
@@ -471,12 +522,6 @@ slide-left {
   text-align: center;
 }
 
-.profile-image {
-  width: 460px;
-  border-radius: 160px;
-  box-shadow: 2px 2px 33px 11px rgb(54, 83, 171);
-  border: 1px solid rgb(30, 50, 111);
-}
 
 
 #lob-font,
