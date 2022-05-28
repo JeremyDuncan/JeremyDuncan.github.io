@@ -445,6 +445,7 @@ h1 {
   @media(min-width: 100.1px) and (max-width: 3440px) {
     #profile-image {
       width: 460px;
+      height: 460px;
     }
     .welcome-section>p{
       font-size: 1em;
@@ -457,12 +458,13 @@ h1 {
 @media(min-width: 100.1px) and (max-width: 1600px) {
   #profile-image {
     width: 260px;
+    height: 260px;
   }
   .welcome-section>p{
-    font-size: .84em;
+    font-size: .74em;
   }
   h1 {
-    font-size: 6rem;
+    font-size: 4rem;
   }
  }
 
@@ -471,6 +473,7 @@ h1 {
  @media(min-width: 100.1px) and (max-width: 1282px) {
   #profile-image {
     width: 240px;
+    height: 240px;
   }
   .welcome-section>p{
     font-size: .53em;
@@ -484,6 +487,7 @@ h1 {
  @media(min-width: 100.1px) and (max-width: 863px) {
   #profile-image {
     width: 220px;
+    height: 220px;
   }
   .welcome-section>p{
     font-size: .50em;
