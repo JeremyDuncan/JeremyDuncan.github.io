@@ -13,6 +13,7 @@
   margin: 0;
   padding: 0;
   font-family: 'Just Another Hand', cursive;
+  text-shadow: 4px 4px 4px black;
 }
 
 /* box-sizing and font sizing */
@@ -198,7 +199,7 @@ img {
 
 .projects-section {
   text-align: center;
-  padding: 10rem 2rem;
+  padding: 3rem 2rem;
   background: var(--main-blue);
 }
 
@@ -323,7 +324,7 @@ img {
   justify-content: center;
   width: 100%;
   max-width: 980px;
-  margin-top: 4rem;
+  margin-top: .1rem;
   flex-wrap: wrap;
 }
 
@@ -433,11 +434,8 @@ h1 {
 
   /* === ULTRA WIDE Monitors === */
   @media(min-width: 100.1px) and (max-width: 3440px) {
-    .profile-image {
+    #profile-image {
       width: 460px;
-      box-shadow: 2px 2px 33px 11px rgb(54, 83, 171);
-      border: 1px solid rgb(16, 23, 45);
-      border-radius: 30px;
     }
     .welcome-section>p{
       font-size: 1em;
@@ -448,11 +446,8 @@ h1 {
    }
 
 @media(min-width: 100.1px) and (max-width: 1600px) {
-  .profile-image {
+  #profile-image {
     width: 260px;
-    box-shadow: 2px 2px 33px 11px rgb(54, 83, 171);
-    border: 1px solid rgb(16, 23, 45);
-    border-radius: 30px;
   }
   .welcome-section>p{
     font-size: .84em;
@@ -461,15 +456,15 @@ h1 {
     font-size: 6rem;
   }
  }
+
+
+
  @media(min-width: 100.1px) and (max-width: 1282px) {
-  .profile-image {
-    width: 260px;
-    box-shadow: 2px 2px 33px 11px rgb(54, 83, 171);
-    border: 1px solid rgb(16, 23, 45);
-    border-radius: 30px;
+  #profile-image {
+    width: 240px;
   }
   .welcome-section>p{
-    font-size: .63em;
+    font-size: .53em;
   }
   h1 {
     font-size: 4rem;
@@ -478,35 +473,42 @@ h1 {
 
 
  @media(min-width: 100.1px) and (max-width: 863px) {
-  .profile-image {
-    width: 240px;
-    box-shadow: 2px 2px 33px 11px rgb(54, 83, 171);
-    border: 1px solid rgb(16, 23, 45);
-    border-radius: 30px;
+  #profile-image {
+    width: 220px;
   }
   .welcome-section>p{
-    font-size: .55em;
+    font-size: .50em;
   }
   h1 {
     font-size: 4rem;
   }
  }
 
- @media(min-width: 100.1px) and (max-width: 603px) {
+ @media(min-width: 100.1px) and (max-width: 628px) {
   .profile-image {
-    width: 240px;
-    box-shadow: 2px 2px 33px 11px rgb(54, 83, 171);
-    border: 1px solid rgb(16, 23, 45);
-    border-radius: 30px;
+    width: 210px;
+    height: 210px;
   }
   .welcome-section>p{
-    font-size: .5em;
+    font-size: .47em;
   }
   h1 {
     font-size: 4rem;
   }
  }
 
+ @media(min-width: 100.1px) and (max-width: 589px) {
+  .profile-image {
+    width: 200px;
+    height: 200px;
+  }
+  .welcome-section>p{
+    font-size: .44em;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+ }
 
  /* === IPHONE ===  */
  @media only screen 
@@ -514,20 +516,28 @@ h1 {
  and (max-device-width: 500px)
  and (-webkit-min-device-pixel-ratio: 2) {
   #profile-image {
-    width: 150px;
-    height: 150px;
-    box-shadow: 2px 2px 33px 11px rgb(54, 83, 171);
-    border: 1px solid rgb(30, 50, 111);
-    border-radius: 30px;
+    width: 160px;
+    height: 160px;
   }
   .welcome-section>p{
     margin: 15px 10px 10px 10px;
-    font-size: .4em;
+    font-size: .5em;
   }
 
   h1 {
-    font-size: .7em;
+    font-size: 4rem;
   }
+
+  .nav {
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    width: 100%;
+    background: var(--main-purp);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+    z-index: 10;
+  }
+
 }
 
   /* @media (min-width: 400.1px) and (max-width: 600px) {
