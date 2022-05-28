@@ -67,13 +67,17 @@ a {
 
 .welcome-section>p{
   font-size: .2em;
+  margin: 15px 10px 10px 10px;
 }
 img {
   display: block;
   width: 100%;
 }
-.profile-image {
-  width: 200px;
+
+
+#profile-image {
+  height: 250px;
+  width: 250px;
   box-shadow: 2px 2px 33px 11px rgb(54, 83, 171);
   border: 1px solid rgb(30, 50, 111);
   border-radius: 30px;
@@ -509,23 +513,31 @@ h1 {
  and (min-device-width: 320px) 
  and (max-device-width: 500px)
  and (-webkit-min-device-pixel-ratio: 2) {
-  .profile-image {
-    width: 560px;
+  #profile-image {
+    width: 150px;
+    height: 150px;
     box-shadow: 2px 2px 33px 11px rgb(54, 83, 171);
     border: 1px solid rgb(30, 50, 111);
     border-radius: 30px;
   }
   .welcome-section>p{
-    font-size: 1.2em;
-  }@media (min-width: 400.1px) and (max-width: 600px) {
+    margin: 15px 10px 10px 10px;
+    font-size: .4em;
+  }
+
+  h1 {
+    font-size: .7em;
+  }
+}
+
+  /* @media (min-width: 400.1px) and (max-width: 600px) {
   body {
     background: red;
   }
-}
   h1 {
     font-size: 6rem;
   }
-}
+  } */
 
  /* @media screen 
  and (min-device-width: 1200px) 
