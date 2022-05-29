@@ -253,7 +253,6 @@ img {
   object-fit: cover;
   box-shadow: 2px 2px 19px 4px rgb(0, 0, 0);
   border-radius: 5px;
-
 }
 
 .project-title {
@@ -608,6 +607,18 @@ h1 {
      z-index: 10;
    }
 
+   .projects-grid>a {
+    box-shadow: 2px 2px 4px 4px rgb(0, 0, 0);
+    padding: 20px 20px 5px 20px;
+    height: 300px;
+  }
+  .project-image {
+    height: calc(100% - 6.8rem);
+    height: 200px;
+    object-fit: cover;
+    box-shadow: 2px 2px 19px 4px rgb(0, 0, 0);
+    border-radius: 5px;
+  }
 
 }
 
