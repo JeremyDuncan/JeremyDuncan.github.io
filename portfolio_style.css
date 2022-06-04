@@ -249,7 +249,7 @@ img {
 
 .project-image {
   height: calc(100% - 6.8rem);
-  height: 500px;
+  height: 300px;
   object-fit: cover;
   box-shadow: 2px 2px 19px 4px rgb(0, 0, 0);
   border-radius: 5px;
