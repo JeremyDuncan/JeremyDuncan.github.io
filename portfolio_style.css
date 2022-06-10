@@ -466,6 +466,21 @@ h1 {
     }
    }
 
+
+@media(min-width: 100.1px) and (max-width: 2850px) {
+  #profile-image {
+    width: 260px;
+    height: 260px;
+  }
+  .welcome-section>p{
+    font-size: .74em;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+ }
+
+
 @media(min-width: 100.1px) and (max-width: 1600px) {
   #profile-image {
     width: 260px;
