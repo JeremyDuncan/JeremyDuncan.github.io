@@ -367,10 +367,12 @@ footer {
   padding: 2rem;
   background: var(--main-gray);
   border-top: 4px solid var(--main-red);
+  padding: 0px 5px 0px 5px;
 }
 
 footer>p {
-  margin: 2rem;
+  margin: .5rem;
+  font-size: 2rem;
 }
 
 footer i {
@@ -575,6 +577,19 @@ h1 {
     background: var(--main-purp);
     box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
     z-index: 10;
+  }
+  .projects-section-header {
+    font-size: 3.5rem;
+    
+  }
+  .projects-section {
+    text-align: center;
+    padding: 7.5rem 2rem;
+    background: var(--main-blue);
+  }
+
+  footer>p {
+    font-size: 1.5rem;
   }
 
 
