@@ -111,7 +111,7 @@ img {
   background: var(--main-purp);
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
 
-  background-image: linear-gradient(180deg,#18233c 0%, #5166df  10%, #7282e1 30%, #5166df 50%, #3b478b 80%, #17233d 100% );
+  background-image: linear-gradient(180deg, #18233c 0%, #5166df 10%, #7282e1 30%, #5166df 50%, #3b478b 80%, #17233d 100%);
 
 }
 
@@ -140,7 +140,7 @@ img {
   width: 100%;
   height: 100vh;
   background-color: #000;
-  background-image: linear-gradient(180deg,#181719 0%,#3a3d40 100%);
+  background-image: linear-gradient(180deg, #000000 0%, rgb(11, 17, 25) 50%, #242c35 100%);
 }
 
 .welcome-section>p {
@@ -221,7 +221,7 @@ img {
 .projects-section {
   text-align: center;
   padding: 6.5rem 2rem;
-  background-image: linear-gradient(180deg, #3a3d40  0%, #223257 100%);
+  background-image: linear-gradient(180deg, #242c35 0%, #242c35 20%, rgb(34, 56, 84) 60%, #1e3978 100%);
 }
 
 .projects-section>h2 {
@@ -344,9 +344,6 @@ img {
   z-index: 96;
 }
 
-
-
-
 .portfolio-section {
   display: flex;
   flex-direction: column;
@@ -356,7 +353,7 @@ img {
   width: 100%;
   height: 30%;
   padding: 0 1rem;
-  background-image: linear-gradient(180deg,#18233c 0%, #5166df  10%, #7282e1 30%, #5166df 50%, #3b478b 80%, #17233d 100% );
+  background-image: linear-gradient(180deg, #18233c 0%, #5166df 10%, #7282e1 30%, #5166df 50%, #3b478b 80%, #17233d 100%);
   z-index: 96;
 
 }
@@ -372,7 +369,7 @@ img {
   padding: 0 1rem;
   background: var(--main-purp);
 
-  background-image: linear-gradient(180deg,#18233c 0%, #5166df  10%, #7282e1 30%, #5166df 50%, #3b478b 80%, #17233d 100% );
+  background-image: linear-gradient(180deg, #18233c 0%, #5166df 10%, #7282e1 30%, #5166df 50%, #3b478b 80%, #17233d 100%);
   z-index: 96;
 
 }
@@ -419,7 +416,7 @@ footer {
   border-top: 4px solid var(--main-red);
   padding: 0px 5px 0px 5px;
   z-index: 95;
-  background-image: linear-gradient(180deg,#11151d 0%, #32374f  10%, #444961 30%, #424857 50%, #26293d 80%, #0c0f16 100% );
+  background-image: linear-gradient(180deg, #11151d 0%, #32374f 10%, #444961 30%, #424857 50%, #26293d 80%, #0c0f16 100%);
 
 }
 
