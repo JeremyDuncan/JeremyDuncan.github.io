@@ -126,9 +126,17 @@ img {
   padding: 2rem;
 }
 
+
+
+
 .nav-list a:hover {
-  background: var(--main-blue);
+color: rgb(17, 29, 75);
+transform: translateY(8px);
+transition: transform 0.3s ease-out;
 }
+
+
+
 
 /* Welcome section */
 
@@ -276,6 +284,8 @@ img {
 
 .project:hover .code {
   color: #ff7f50;
+  z-index: 95;
+
 }
 
 .project-image {
@@ -403,6 +413,7 @@ img {
 
 .contact-details:hover {
   transform: translateY(8px);
+  z-index: 95;
 }
 
 /* Footer */
@@ -624,7 +635,6 @@ h1 {
   .projects-section {
     text-align: center;
     padding: 7.5rem 2rem 3rem;
-    background: var(--main-blue);
   }
 
   .projects-grid {
@@ -637,6 +647,8 @@ h1 {
 
   .btn-container {
     height: 120px;
+    z-index: 95;
+
   }
 
   a.btn.btn-show-all {
@@ -665,7 +677,6 @@ h1 {
     position: fixed;
     justify-content: center;
     width: 100%;
-    background: var(--main-purp);
     box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
   }
 }
@@ -690,7 +701,6 @@ h1 {
     position: fixed;
     justify-content: center;
     width: 100%;
-    background: var(--main-purp);
     box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
   }
 
