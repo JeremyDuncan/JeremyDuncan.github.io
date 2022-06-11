@@ -149,8 +149,8 @@ img {
 #fade-in {
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(255, 255, 255);
-  animation: fadeIn linear 2.5s;
-  -webkit-animation: fadeIn linear 2.5s;
+  animation: fadeIn linear 2.60s;
+  -webkit-animation: fadeIn linear 2.60s;
   -moz-animation: fadeIn linear 3s;
   -o-animation: fadeIn linear 3s;
   -ms-animation: fadeIn linear 3s;
@@ -714,7 +714,7 @@ h1 {
       overflow: hidden;
     } */
 
-    #stars {
+    .stars {
       width: 1px;
       height: 1px;
       background: transparent;
@@ -1419,10 +1419,10 @@ h1 {
       , 996px 1180px #3c52ce
       , 1506px 713px #3c52ce
       ;
-      animation: animStar 50s linear infinite;
+      animation: fadeIn linear 10s, animStar 50s linear infinite;
     }
 
-    #stars:after {
+    .stars:after {
       content: " ";
       position: absolute;
       z-index: -10;
@@ -2133,7 +2133,7 @@ h1 {
       ;
     }
 
-    #stars2 {
+    .stars2 {
       width: 2px;
       height: 2px;
       background: transparent;
@@ -2338,10 +2338,10 @@ h1 {
       , 735px 1297px #3c52ce
       , 804px 1272px #3c52ce
       ;
-      animation: animStar 100s linear infinite;
+      animation: fadeIn linear 10s, animStar 100s linear infinite;
     }
 
-    #stars2:after {
+    .stars2:after {
       content: " ";
       position: absolute;
       z-index: -10;
@@ -2552,7 +2552,7 @@ h1 {
       ;
     }
 
-    #stars3 {
+    .stars3 {
       width: 3px;
       height: 3px;
       background: transparent;
@@ -2657,10 +2657,10 @@ h1 {
       , 1410px 1435px #3c52ce
       , 131px 1705px #3c52ce
       ;
-      animation: animStar 150s linear infinite;
+      animation: fadeIn linear 10s, animStar 150s linear infinite;
     }
-
-    #stars3:after {
+ 
+    .stars3:after {
       content: " ";
       position: absolute;
       z-index: -10;
@@ -2798,10 +2798,12 @@ h1 {
 
     @keyframes animStar {
       from {
-        transform: translateY(0px);
+        transform: translateY(-1000px);
       }
 
       to {
-        transform: translateY(-2000px);
+        transform: translateY(4000px);
       }
+      
     }
+  
