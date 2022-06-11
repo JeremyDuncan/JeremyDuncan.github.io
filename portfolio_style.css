@@ -568,7 +568,9 @@ h1 {
   h1 {
     font-size: 4rem;
   }
-
+  .contact-section-header>h2 {
+    font-size: 4rem;
+  }
   .nav {
     display: flex;
     position: fixed;
@@ -584,12 +586,23 @@ h1 {
   }
   .projects-section {
     text-align: center;
-    padding: 7.5rem 2rem;
+    padding: 7.5rem 2rem 3rem;
     background: var(--main-blue);
+  }
+  .projects-grid {
+    padding-bottom: 10rem;
   }
 
   footer>p {
     font-size: 1.5rem;
+  }
+  .btn-container {
+    height: 120px;
+  }
+
+  a.btn.btn-show-all {
+    font-size: 2rem;
+    padding: 12px 31px 15px 31px;
   }
 
 
