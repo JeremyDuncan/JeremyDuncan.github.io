@@ -665,16 +665,15 @@ h1 {
 
 .portfolio-section {
   padding: 10px 10px 10px 10px;
-  margin: auto;
-  margin-top: 50px;
+  margin-top: 30px;
   width: 27rem;
 }
 
 .contact-section {
   padding: 10px 30px 10px 30px;
-  margin: auto;
-  margin-top: 50px;
-  width: 22rem;
+  width: 27rem;
+  margin-top: 30px;
+
 }
 
 
