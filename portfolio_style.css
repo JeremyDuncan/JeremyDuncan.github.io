@@ -683,11 +683,11 @@ h1 {
 
   .projects-section {
     text-align: center;
-    padding: 7.5rem 2rem 1rem;
+    padding: 7.5rem 2rem 6rem;
   }
 
   .projects-grid {
-    padding-bottom: 10rem;
+    padding-bottom: 0rem;
   }
 
   footer>p {
