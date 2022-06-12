@@ -369,6 +369,24 @@ transition: transform 0.3s ease-out;
   margin-top: 50px;
   width: 30rem;
 }
+
+#portfolio {
+  display: inline-flex;
+  padding: 0px 0px 0px 0px;
+  width: 310px;
+  z-index: 93;
+}
+
+#portfolio > div.contact-section-header {
+  height: 80px;
+  z-index: 93;
+}
+
+#portfolio > div.contact-links > a {
+  padding: 5px 10px 3px 10px;
+  z-index: 93;
+}
+
 section.contact.portfolio-section{ 
   z-index:93;
 }
@@ -389,7 +407,16 @@ section.contact.portfolio-section{
   margin-top: 50px;
   width: 25rem;
 }
+#contact {
+  padding: 0px 0px 0px 0px;
+  width: 260px;
+}
+
+#contact > div > a{
+  padding: 5px 10px 3px 10px;
+}
 .contact-section-header>h2 {
+  height: 80px;
   font-size: 6rem;
   z-index: 96;
 }
@@ -410,6 +437,7 @@ section.contact.portfolio-section{
 
 #contact > div.contact-links > a {
   display: flex;
+  padding: 5px 5px 5px 5px;
 }
 .contact-details {
   font-size: 2.4rem;
@@ -417,7 +445,6 @@ section.contact.portfolio-section{
   transition: transform 0.3s ease-out;
   z-index: 96;
 }
-
 .contact-details:hover {
   transform: translateY(8px);
   z-index: 95;
