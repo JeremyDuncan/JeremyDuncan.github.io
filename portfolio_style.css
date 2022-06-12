@@ -5,7 +5,7 @@
   --main-white: #f0f0f0;
   --main-purp: #5166df;
   --main-blue: #223257;
-  --main-gray: #172b42;
+  --main-gray: rgb(43, 58, 145);
 }
 
 /* Base reset */
