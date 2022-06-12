@@ -227,7 +227,7 @@ transition: transform 0.3s ease-out;
 
 .projects-section {
   text-align: center;
-  padding: 6.5rem 1rem 2rem 1rem;
+  padding: 6.5rem 1rem 5rem 1rem;
   background-image: linear-gradient(180deg, #242c35 0%, #242c35 20%, rgb(34, 56, 84) 60%, #1e3978 100%);
 }
 
@@ -338,7 +338,7 @@ transition: transform 0.3s ease-out;
   display: flex;
   gap: 10px;
   justify-content: center;
-  margin-top: 180px;
+  margin-top: 120px;
 }
 
 /* Contact section */
