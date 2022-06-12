@@ -129,9 +129,9 @@ img {
 
 
 .nav-list a:hover {
-color: rgb(17, 29, 75);
-transform: translateY(8px);
-transition: transform 0.3s ease-out;
+  color: rgb(17, 29, 75);
+  transform: translateY(8px);
+  transition: transform 0.3s ease-out;
 }
 
 
@@ -377,19 +377,20 @@ transition: transform 0.3s ease-out;
   z-index: 93;
 }
 
-#portfolio > div.contact-section-header {
+#portfolio>div.contact-section-header {
   height: 80px;
   z-index: 93;
 }
 
-#portfolio > div.contact-links > a {
+#portfolio>div.contact-links>a {
   padding: 5px 10px 3px 10px;
   z-index: 93;
 }
 
-section.contact.portfolio-section{ 
-  z-index:93;
+section.contact.portfolio-section {
+  z-index: 93;
 }
+
 .contact-section {
   display: flex;
   flex-direction: column;
@@ -407,14 +408,16 @@ section.contact.portfolio-section{
   margin-top: 50px;
   width: 25rem;
 }
+
 #contact {
   padding: 0px 0px 0px 0px;
   width: 260px;
 }
 
-#contact > div > a{
+#contact>div>a {
   padding: 5px 10px 3px 10px;
 }
+
 .contact-section-header>h2 {
   height: 80px;
   font-size: 6rem;
@@ -435,16 +438,18 @@ section.contact.portfolio-section{
   z-index: 96;
 }
 
-#contact > div.contact-links > a {
+#contact>div.contact-links>a {
   display: flex;
   padding: 5px 5px 5px 5px;
 }
+
 .contact-details {
   font-size: 2.4rem;
   text-shadow: 2px 2px 1px #1f1f1f;
   transition: transform 0.3s ease-out;
   z-index: 96;
 }
+
 .contact-details:hover {
   transform: translateY(8px);
   z-index: 95;
@@ -649,22 +654,24 @@ h1 {
   h1 {
     font-size: 4rem;
   }
+
   #portfolio {
     width: 245px;
   }
-  #portfolio > div.contact-section-header {
+
+  #portfolio>div.contact-section-header {
     height: 50px;
   }
-  
+
   #contact {
     width: 180px;
   }
-  
+
   .contact-section-header>h2 {
     height: 50px;
     z-index: 96;
   }
-  
+
   .contact-section-header>h2 {
     font-size: 4rem;
   }
@@ -780,4 +787,3 @@ h1 {
     border-radius: 5px;
   }
 }
-
