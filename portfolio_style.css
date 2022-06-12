@@ -649,7 +649,22 @@ h1 {
   h1 {
     font-size: 4rem;
   }
-
+  #portfolio {
+    width: 245px;
+  }
+  #portfolio > div.contact-section-header {
+    height: 50px;
+  }
+  
+  #contact {
+    width: 180px;
+  }
+  
+  .contact-section-header>h2 {
+    height: 50px;
+    z-index: 96;
+  }
+  
   .contact-section-header>h2 {
     font-size: 4rem;
   }
