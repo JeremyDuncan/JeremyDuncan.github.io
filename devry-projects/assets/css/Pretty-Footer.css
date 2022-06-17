@@ -113,10 +113,7 @@ div.social-links {
   margin-bottom: 5px;
 }
 
-.social-links a :hover {
-  transform: translateY(8px);
+.social-links > a :hover {
+  transform: translateY(px);
 }
 
-:hover {
-  transform: translateY(8px);
-}
