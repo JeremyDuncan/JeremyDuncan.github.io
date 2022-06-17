@@ -114,6 +114,6 @@ div.social-links {
 }
 
 .social-links > a :hover {
-  transform: translateY(px);
+  transform: translateY(4px);
 }
 
