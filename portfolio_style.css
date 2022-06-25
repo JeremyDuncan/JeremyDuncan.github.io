@@ -71,7 +71,7 @@ a {
 
 #projects > div.projects-grid > a > p.descript{
   display: flex;
-  font-size: 2rem;
+  font-size: 2.4rem;
   color:rgb(250, 245, 245);
   background-color: rgb(100, 108, 156);
   border-radius: 5px;
@@ -81,6 +81,7 @@ a {
   justify-content: center;
   align-items: center;
   align-content: center;
+  text-shadow: #0f0d0d 3px 3px 2px;
 
 }
 .welcome-section>p {
