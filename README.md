@@ -1,3 +1,3 @@
 # JeremyDuncan.github.io
 
-## This is my portfolio site
+## This is my old portfolio site.
